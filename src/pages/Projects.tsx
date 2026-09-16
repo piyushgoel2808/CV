@@ -3,6 +3,14 @@ import { motion } from "framer-motion";
 export const Projects = ({ isDark }: { isDark: boolean }) => {
   const projects = [
     {
+      name: "NewsLens-AI",
+      description:
+        "Agentic RAG & Broadsheet Intelligence Platform with IBM Docling neural layout parsing, Qdrant vector retrieval, Qwen3-VL spatial extraction, LangGraph planner, and CRAG self-reflection.",
+      tech: ["Python 3.12", "FastAPI", "React 18", "LangGraph", "Qdrant", "Docling", "MySQL 8"],
+      github: "https://github.com/piyushgoel2808/NewsLens-AI",
+      type: "GenAI & ML",
+    },
+    {
       name: "DocuMind RAG",
       description:
         "Contextual Generative AI Application with dense ChromaDB embeddings, LLM dynamic routing, and hallucination-free document querying.",

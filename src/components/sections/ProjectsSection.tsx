@@ -17,6 +17,27 @@ interface Project {
 
 const PROJECTS: Project[] = [
   {
+    name: "NewsLens-AI: Newspaper Intelligence Agentic RAG Platform",
+    description:
+      "Enterprise-grade Agentic RAG & Broadsheet Intelligence Platform engineered for scanned newspaper archives. Features IBM Docling neural layout segmentation, 2D spatial photo extraction (Qwen3-VL), 2-stage neural retrieval cascade (Cross-Encoder + RRF hybrid search over Qdrant & MySQL), autonomous LangGraph planning agent with dynamic tool synthesis, AST sandbox execution, interactive multi-hop entity knowledge graph, and closed-loop CRAG evaluation.",
+    tech: [
+      "Python 3.12",
+      "FastAPI",
+      "React 18",
+      "LangGraph",
+      "Qdrant",
+      "IBM Docling",
+      "Qwen3-VL",
+      "MySQL 8",
+      "Redis",
+      "Docker",
+    ],
+    categories: ["GenAI & RAG", "Data Science & ML"],
+    github: "https://github.com/piyushgoel2808/NewsLens-AI",
+    badge: "Flagship Agentic RAG",
+    featured: true,
+  },
+  {
     name: "DocuMind RAG – Contextual Generative AI Application",
     description:
       "Architected a full-stack RAG pipeline to perform contextual, hallucination-free querying over unstructured enterprise documents. Engineered modular data ingestion and tokenization workflows (PyMuPDF, python-docx) integrated with dense vector embeddings persisted in ChromaDB for high-accuracy similarity search. Built an adaptive orchestration layer to dynamically route and optimize LLM inference across foundation models (Gemini, Groq, Ollama).",
