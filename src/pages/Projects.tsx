@@ -8,22 +8,32 @@ export const Projects = ({ isDark }: { isDark: boolean }) => {
         "Multimodal Document Intelligence & Agentic RAG Platform with IBM Docling neural layout parsing, Qdrant vector retrieval, Qwen-VL chart extraction (<3s latency), LangGraph CRAG planner, and cross-encoder reranking.",
       tech: ["Python", "LangGraph", "Qdrant", "Docling", "Qwen-VL", "FastAPI", "MySQL", "React", "MinIO"],
       github: "https://github.com/piyushgoel2808/NewsLens-AI",
+      live: "https://newslens-frontend-679327043786.asia-south1.run.app",
       type: "GenAI & RAG",
     },
     {
-      name: "DocuMind RAG",
+      name: "Cluely Studio",
+      description:
+        "Ultra-low-latency multimodal stealth AI meeting teleprompter & real-time interview copilot for macOS Apple Silicon with sub-200ms dual-channel Sherpa-ONNX speech recognition.",
+      tech: ["Electron 32", "TypeScript", "React 18", "Ollama", "Sherpa-ONNX", "Tailwind", "WebSockets"],
+      github: "https://github.com/piyushgoel2808/CluelyStudio",
+      type: "GenAI & Systems",
+    },
+    {
+      name: "DocuMind RAG / AI Knowledge Assistant",
       description:
         "Multi-Model Contextual Generative AI Application with dense ChromaDB embeddings, PyMuPDF tokenization, and dynamic LLM routing across Gemini, Groq, and Ollama.",
       tech: ["Python", "FastAPI", "ChromaDB", "Gemini", "Groq", "Ollama", "PyMuPDF"],
-      github: "https://github.com/piyushgoel2808/DocuMind-RAG",
+      github: "https://github.com/piyushgoel2808/AI-Knowledge-Assistant",
       type: "GenAI & ML",
     },
     {
-      name: "Campus Connect Backend",
+      name: "Campus Connect",
       description:
         "High-concurrency backend infrastructure supporting production-ready REST APIs, real-time data workflows, and stateless JWT authentication for 250+ active users.",
-      tech: ["Java", "Spring Boot", "MySQL", "RESTful APIs", "JWT", "Git"],
-      github: "https://github.com/piyushgoel2808/Campus-Connect",
+      tech: ["Java", "Spring Boot", "MySQL", "RESTful APIs", "JWT", "WebSockets", "Docker"],
+      github: "https://github.com/piyushgoel2808/campus-connect",
+      live: "https://campus-connect-live.onrender.com",
       type: "Backend Systems",
     },
     {
@@ -39,8 +49,8 @@ export const Projects = ({ isDark }: { isDark: boolean }) => {
       name: "Gym Management System",
       description:
         "Scalable web application implementing secure authentication and role-based access control across admin and member portals.",
-      tech: ["Java", "Spring Boot", "MySQL", "RESTful APIs"],
-      github: "https://github.com/piyushgoel2808/Gym-Management-System",
+      tech: ["Java", "Spring Boot", "MySQL", "RESTful APIs", "RBAC"],
+      github: "https://github.com/piyushgoel2808/GymManagementSystem",
       type: "Backend",
     },
     {
@@ -48,20 +58,29 @@ export const Projects = ({ isDark }: { isDark: boolean }) => {
       description:
         "Predictive machine learning models forecasting user engagement and banking behavior in relation to Fixed Deposits.",
       tech: ["Python", "Scikit-learn", "Pandas", "NumPy"],
+      github: "https://github.com/piyushgoel2808/INTERNSHIP_PROJECT",
       type: "Data Science",
     },
     {
-      name: "Password Generator & Strength Analyzer",
+      name: "Automated Password Generator",
       description:
         "Automated password generator and entropy scoring system built in Java. NPTEL / Swayam certified.",
       tech: ["Java", "Algorithms", "Cryptography"],
       github: "https://github.com/piyushgoel2808/Password-Generator",
-      type: "Personal",
+      type: "Security & Algorithms",
+    },
+    {
+      name: "Status Factory",
+      description:
+        "FastAPI, Playwright, and Tailwind automated WhatsApp status and social asset generator with headless rendering.",
+      tech: ["FastAPI", "Python", "Playwright", "Tailwind CSS"],
+      github: "https://github.com/piyushgoel2808/Status-Factory",
+      type: "Automation",
     },
     {
       name: "IBM Data Science Suite",
       description:
-        "Exploratory data analysis, demographic SQL querying, and dynamic Python dashboard reporting.",
+        "Exploratory data analysis, demographic SQL querying, and dynamic Python dashboard reporting across 10 IBM courses.",
       tech: ["Python", "SQL", "Pandas", "Matplotlib"],
       github: "https://github.com/piyushgoel2808/Data-Science-Professional-IBM-",
       type: "Data Science",

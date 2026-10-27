@@ -34,13 +34,33 @@ const PROJECTS: Project[] = [
     ],
     categories: ["GenAI & RAG", "Data Science & ML"],
     github: "https://github.com/piyushgoel2808/NewsLens-AI",
+    live: "https://newslens-frontend-679327043786.asia-south1.run.app",
     badge: "Flagship Agentic RAG · 2026",
     featured: true,
   },
   {
-    name: "DocuMind RAG – Multi-Model Contextual Generative AI",
+    name: "Cluely Studio – Real-Time Stealth AI Meeting Copilot & Teleprompter",
     description:
-      "Architected an end-to-end RAG pipeline to perform grounded, citation-backed querying over unstructured enterprise documents, optimizing semantic chunking for low latency. Engineered modular data ingestion and tokenization workflows (PyMuPDF, python-docx) with dense ChromaDB vector embeddings. Built a fault-tolerant LLM orchestration layer dynamically routing inference across Gemini, Groq, and local Ollama models to minimize token overhead and API fallback latency.",
+      "Ultra-low-latency multimodal stealth AI meeting teleprompter and real-time interview copilot for macOS Apple Silicon. Delivers instant teleprompting (<150ms TTFT via Ollama) and sub-200ms dual-channel speech recognition using native Sherpa-ONNX (NVIDIA Parakeet-TDT). Built with Electron 32, React 18, TypeScript, Tailwind, WebSocket stealth companion app, and 100% screen-share invisibility.",
+    tech: [
+      "Electron 32",
+      "TypeScript",
+      "React 18",
+      "Ollama",
+      "Sherpa-ONNX",
+      "Tailwind",
+      "WebSockets",
+      "macOS",
+    ],
+    categories: ["GenAI & RAG", "Backend Systems"],
+    github: "https://github.com/piyushgoel2808/CluelyStudio",
+    badge: "Stealth AI Copilot",
+    featured: true,
+  },
+  {
+    name: "DocuMind RAG / AI Knowledge Assistant",
+    description:
+      "Architected an end-to-end local-first RAG pipeline to perform grounded, citation-backed querying over unstructured enterprise documents (.pdf, .docx, .txt), optimizing semantic chunking for low latency. Engineered modular data ingestion and tokenization workflows (PyMuPDF, python-docx) with dense ChromaDB vector embeddings. Built a fault-tolerant LLM orchestration layer dynamically routing inference across Gemini, Groq, and local Ollama models.",
     tech: [
       "Python",
       "FastAPI",
@@ -52,18 +72,19 @@ const PROJECTS: Project[] = [
       "python-docx",
     ],
     categories: ["GenAI & RAG", "Data Science & ML"],
-    github: "https://github.com/piyushgoel2808/DocuMind-RAG",
+    github: "https://github.com/piyushgoel2808/AI-Knowledge-Assistant",
     badge: "Featured GenAI · 2026",
     featured: true,
   },
   {
     name: "Campus Connect – Scalable Production Backend",
     description:
-      "Engineered a high-concurrency backend infrastructure supporting production-ready REST APIs, real-time data workflows, and stateless JWT authentication for 250+ active users. Optimized MySQL query execution plans, relational indexing, and backend pipelines to maintain low-latency API responses and high system observability under concurrent load.",
-    tech: ["Java", "Spring Boot", "MySQL", "RESTful APIs", "JWT", "Git"],
+      "Engineered a high-concurrency backend infrastructure supporting production-ready REST APIs, real-time data workflows, and stateless JWT authentication for 250+ active users. Built with Spring Boot 3.2.5, Spring Security, Spring Data JPA, and STOMP WebSockets for real-time messaging, content moderation, and event management. Optimized database query execution plans and relational indexing.",
+    tech: ["Java", "Spring Boot", "MySQL", "RESTful APIs", "JWT", "WebSockets", "Docker"],
     categories: ["Backend Systems"],
-    github: "https://github.com/piyushgoel2808/Campus-Connect",
-    badge: "250+ Active Users · Jan 2026 – Present",
+    github: "https://github.com/piyushgoel2808/campus-connect",
+    live: "https://campus-connect-live.onrender.com",
+    badge: "Live Production · 250+ Users",
     featured: true,
   },
   {
@@ -89,7 +110,7 @@ const PROJECTS: Project[] = [
       "Contributed to a group-developed Gym Management System by implementing secure authentication, multi-tier database schemas, and role-based access control (RBAC) across administrative and member portals.",
     tech: ["Java", "Spring Boot", "MySQL", "RESTful APIs", "RBAC"],
     categories: ["Backend Systems"],
-    github: "https://github.com/piyushgoel2808/Gym-Management-System",
+    github: "https://github.com/piyushgoel2808/GymManagementSystem",
     badge: "Full-Stack System",
     featured: true,
   },
@@ -99,6 +120,7 @@ const PROJECTS: Project[] = [
       "Designed and implemented predictive machine learning models utilizing data science tools to forecast user engagement and banking behavior in relation to Fixed Deposits, contributing to data-driven decision making.",
     tech: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Data Science"],
     categories: ["Data Science & ML"],
+    github: "https://github.com/piyushgoel2808/INTERNSHIP_PROJECT",
     badge: "ML Predictive Model",
   },
   {
@@ -109,6 +131,15 @@ const PROJECTS: Project[] = [
     categories: ["Backend Systems"],
     github: "https://github.com/piyushgoel2808/Password-Generator",
     badge: "NPTEL Certified",
+  },
+  {
+    name: "Status Factory – Dynamic Social Asset Engine",
+    description:
+      "Mobile-first automated WhatsApp status and social asset generator built with FastAPI, Jinja2, Playwright, and Tailwind CSS. Generates high-resolution 1080x1920 status visuals with headless browser rendering and dynamic Unsplash integration.",
+    tech: ["FastAPI", "Python", "Playwright", "Jinja2", "Tailwind CSS"],
+    categories: ["Backend Systems"],
+    github: "https://github.com/piyushgoel2808/Status-Factory",
+    badge: "FastAPI Automation",
   },
   {
     name: "IBM Data Science & Analytics Suite",
