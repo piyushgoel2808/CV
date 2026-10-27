@@ -3,21 +3,46 @@ import { motion } from "framer-motion";
 export const About = ({ isDark }: { isDark: boolean }) => {
   const skills = [
     {
-      category: "AI & GenAI",
-      items: ["RAG Pipelines", "LangChain", "LLMs (Gemini, Groq)", "ChromaDB Vector DB", "Prompt Engineering"],
-    },
-    {
-      category: "Backend & Systems",
-      items: ["Java", "Python", "Spring Boot", "RESTful APIs", "JWT Auth", "MySQL"],
-    },
-    {
-      category: "Tools & Methodologies",
+      category: "AI & LLM Engineering",
       items: [
-        "Git & GitHub",
+        "Generative AI",
+        "Agentic & Corrective RAG (CRAG)",
+        "LangGraph",
+        "LangChain",
+        "Multimodal VLMs (Qwen-VL)",
+        "LLMs (GPT, Gemini, Groq, Ollama)",
+        "Embeddings (BGE-M3)",
+        "Cross-Encoder Reranking",
+        "Prompt Engineering",
+      ],
+    },
+    {
+      category: "Programming & Backend",
+      items: [
+        "Python",
+        "Java",
+        "SQL",
+        "FastAPI",
+        "Spring Boot",
+        "REST APIs",
+        "High-Concurrency Architectures",
+        "JWT Authentication",
+      ],
+    },
+    {
+      category: "Vector DBs & Tools",
+      items: [
+        "Qdrant",
+        "ChromaDB",
+        "IBM Docling",
+        "RapidOCR",
+        "PyMuPDF",
+        "MySQL",
+        "MinIO",
         "Docker",
-        "Postman",
-        "Agile Methodologies",
-        "Linux",
+        "Git & GitHub",
+        "React",
+        "Agile",
       ],
     },
   ];
@@ -46,10 +71,10 @@ export const About = ({ isDark }: { isDark: boolean }) => {
           } mb-12`}
         >
           <p className="text-lg mb-4">
-            I'm a Software Developer and AI Engineer equipped with a solid foundation in computer science, backend systems engineering, and AI pipeline development.
+            AI Engineer and Backend Developer specializing in Agentic RAG architectures, Multimodal VLMs, and production LLM orchestration.
           </p>
           <p className="text-lg">
-            Experienced in building high-concurrency Spring Boot backend architectures, secure JWT authentication mechanisms, and full-stack contextual RAG pipelines integrated with ChromaDB vector databases and multi-foundation LLM orchestration.
+            Proven track record of building low-latency document intelligence pipelines and scalable microservices using Python, FastAPI, LangGraph, Qdrant, and Java (Spring Boot) to bridge Generative AI with high-concurrency backend systems.
           </p>
         </motion.div>
 

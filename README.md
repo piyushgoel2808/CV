@@ -92,12 +92,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 ## 🌟 **Connect with Me**
-- 💼 [LinkedIn](https://www.linkedin.com/in/divyanshjha30)
-- 🐦 [Twitter](https://twitter.com/divyanshjha30)
-- 📧 [Email](mailto:jhadivyansh2003@gmail.com)
-- 🌐 [Website](https://divyanshjha.netlify.app)
+- 💼 [LinkedIn](https://www.linkedin.com/in/piyush-goel-26548b142)
+- 🐙 [GitHub](https://github.com/piyushgoel2808)
+- 📧 [Email](mailto:piyushgoel811@gmail.com)
+- 🌐 [Portfolio](https://piyushgoel2808.github.io/CV/)
 
 ---
 
 ## ⭐ **Show Your Support**
-If you like this project, please give it a ⭐ on [GitHub](https://github.com/divyanshjha30/portfolio)! It means a lot to me. 😊
+If you like this project, please give it a ⭐ on [GitHub](https://github.com/piyushgoel2808/CV)! It means a lot to me. 😊

@@ -2,54 +2,49 @@ import { motion } from "framer-motion";
 
 const SKILLS = [
   {
-    category: "Programming Languages",
+    category: "AI & LLM Engineering",
     color: "cyan" as const,
-    items: ["Python", "Java", "SQL", "JavaScript", "TypeScript", "C++"],
-  },
-  {
-    category: "AI, GenAI & Data Science",
-    color: "violet" as const,
     items: [
-      "Agentic RAG",
+      "Generative AI",
+      "Agentic & Corrective RAG (CRAG)",
       "LangGraph",
       "LangChain",
-      "Qdrant",
-      "ChromaDB",
-      "IBM Docling",
-      "LLMs & VLMs (Qwen-VL, Gemini, Groq)",
-      "Vector Embeddings",
+      "Multimodal VLMs (Qwen-VL)",
+      "LLMs (GPT, Gemini, Groq, Ollama)",
+      "Embeddings (BGE-M3)",
+      "Cross-Encoder Reranking",
       "Prompt Engineering",
-      "Ollama",
     ],
   },
   {
-    category: "Backend & System Design",
-    color: "pink" as const,
+    category: "Programming & Backend",
+    color: "violet" as const,
     items: [
+      "Python",
+      "Java",
+      "SQL",
       "FastAPI",
       "Spring Boot",
-      "RESTful APIs",
-      "High-Concurrency Architecture",
-      "JWT Authentication",
-      "Role-Based Access (RBAC)",
-      "Celery",
-      "Node.js",
-      "Express",
+      "REST APIs",
+      "High-Concurrency Architectures",
+      "JWT",
     ],
   },
   {
-    category: "Databases & Tools",
+    category: "Vector DBs & Tools",
     color: "green" as const,
     items: [
-      "Qdrant Vector DB",
-      "MySQL 8",
-      "Redis",
-      "MinIO (S3)",
+      "Qdrant",
+      "ChromaDB",
+      "Docling",
+      "RapidOCR",
+      "PyMuPDF",
+      "MySQL",
+      "MinIO",
       "Docker",
-      "Git & GitHub",
-      "Postman",
-      "Agile Methodologies",
-      "Linux",
+      "Git",
+      "React",
+      "Agile",
     ],
   },
 ];
@@ -65,16 +60,16 @@ const TAG_STYLES: Record<string, string> = {
 
 const EDUCATION = [
   {
-    school: "IIT Madras",
-    degree: "BS in Data Science (Flexible Track)",
-    period: "2025 – Ongoing",
-    cgpa: "8.0 CGPA",
-  },
-  {
     school: "BVICAM, GGSIPU, Delhi",
     degree: "Master of Computer Applications (MCA)",
     period: "2025 – 2027",
     cgpa: "8.5 CGPA",
+  },
+  {
+    school: "IIT Madras (Remote)",
+    degree: "BS in Data Science and Applications (Flexible Track)",
+    period: "2025 – Ongoing",
+    cgpa: "8.0 CGPA",
   },
   {
     school: "IITM, GGSIPU, Delhi",
@@ -111,13 +106,13 @@ export const About = () => {
               style={{ color: "var(--text-1)" }}
             >
               <p>
-                Software Developer and AI Engineer equipped with a solid foundation in computer science, backend systems engineering, and AI pipeline development.
+                AI Engineer and Backend Developer specializing in Agentic RAG architectures, Multimodal VLMs, and production LLM orchestration.
               </p>
               <p>
-                I specialize in developing high-concurrency Spring Boot backend architectures, secure JWT authentication mechanisms, and full-stack contextual RAG pipelines integrated with ChromaDB vector databases and multi-foundation LLM orchestration.
+                Proven track record of building low-latency document intelligence pipelines and scalable microservices using Python, FastAPI, LangGraph, Qdrant, and Java (Spring Boot) to bridge Generative AI with high-concurrency backend systems.
               </p>
               <p>
-                Currently pursuing a Master of Computer Applications (MCA) at BVICAM, GGSIPU alongside a BS in Data Science at IIT Madras.
+                Currently pursuing a Master of Computer Applications (MCA) at BVICAM, GGSIPU alongside a BS in Data Science and Applications at IIT Madras.
               </p>
             </div>
 

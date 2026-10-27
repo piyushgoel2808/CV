@@ -30,14 +30,13 @@ const EXPERIENCES = [
   {
     company: "Infosys",
     location: "Delhi, India",
-    role: "Java Developer / Tech Stack Intern",
+    role: "Java Technology Stack Intern",
     team: "Enterprise Software Engineering",
-    period: "May 2024 – Aug 2024",
+    period: "May 2024 – July 2024",
     color: "#ec4899",
     bullets: [
-      "Collaborated with cross-functional engineering teams to develop and integrate scalable enterprise software features, gaining hands-on exposure to production-grade system architectures.",
-      "Participated in algorithm optimization, peer code reviews, and agile workflows to ensure reliable software deployment and adherence to industry-standard engineering practices.",
-      "Contributed to backend feature testing, API performance enhancements, and codebase reliability.",
+      "Developed and integrated scalable backend modules using Java, Spring Boot, and SQL within an enterprise application architecture, streamlining data processing workflows across cross-functional sprints.",
+      "Executed query optimizations, unit testing, and peer code reviews within Agile workflows to ensure production-grade reliability and adherence to software engineering standards.",
     ],
   },
   {

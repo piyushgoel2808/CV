@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, FileDown, MapPin } from "lucide-react";
+import { Mail, Github, Linkedin, FileDown, MapPin, Phone } from "lucide-react";
 
 const LINKS = [
   {
@@ -9,9 +9,15 @@ const LINKS = [
     color: "#00d4ff",
   },
   {
+    icon: Phone,
+    label: "+91 7503433132",
+    href: "tel:+917503433132",
+    color: "#38bdf8",
+  },
+  {
     icon: Linkedin,
-    label: "linkedin.com/in/piyush-goel-2808",
-    href: "https://www.linkedin.com/in/piyush-goel-2808",
+    label: "linkedin.com/in/piyush-goel-26548b142",
+    href: "https://www.linkedin.com/in/piyush-goel-26548b142",
     color: "#7c3aed",
   },
   {

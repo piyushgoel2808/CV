@@ -5,26 +5,26 @@ export const Projects = ({ isDark }: { isDark: boolean }) => {
     {
       name: "NewsLens-AI",
       description:
-        "Agentic RAG & Broadsheet Intelligence Platform with IBM Docling neural layout parsing, Qdrant vector retrieval, Qwen3-VL spatial extraction, LangGraph planner, and CRAG self-reflection.",
-      tech: ["Python 3.12", "FastAPI", "React 18", "LangGraph", "Qdrant", "Docling", "MySQL 8"],
+        "Multimodal Document Intelligence & Agentic RAG Platform with IBM Docling neural layout parsing, Qdrant vector retrieval, Qwen-VL chart extraction (<3s latency), LangGraph CRAG planner, and cross-encoder reranking.",
+      tech: ["Python", "LangGraph", "Qdrant", "Docling", "Qwen-VL", "FastAPI", "MySQL", "React", "MinIO"],
       github: "https://github.com/piyushgoel2808/NewsLens-AI",
-      type: "GenAI & ML",
+      type: "GenAI & RAG",
     },
     {
       name: "DocuMind RAG",
       description:
-        "Contextual Generative AI Application with dense ChromaDB embeddings, LLM dynamic routing, and hallucination-free document querying.",
-      tech: ["Python", "ChromaDB", "LangChain", "LLM APIs", "Embeddings"],
+        "Multi-Model Contextual Generative AI Application with dense ChromaDB embeddings, PyMuPDF tokenization, and dynamic LLM routing across Gemini, Groq, and Ollama.",
+      tech: ["Python", "FastAPI", "ChromaDB", "Gemini", "Groq", "Ollama", "PyMuPDF"],
       github: "https://github.com/piyushgoel2808/DocuMind-RAG",
       type: "GenAI & ML",
     },
     {
       name: "Campus Connect Backend",
       description:
-        "High-concurrency backend infrastructure handling real-time data processing and JWT authentication for 250+ active users.",
-      tech: ["Java", "Spring Boot", "JWT", "MySQL", "Git"],
+        "High-concurrency backend infrastructure supporting production-ready REST APIs, real-time data workflows, and stateless JWT authentication for 250+ active users.",
+      tech: ["Java", "Spring Boot", "MySQL", "RESTful APIs", "JWT", "Git"],
       github: "https://github.com/piyushgoel2808/Campus-Connect",
-      type: "Backend",
+      type: "Backend Systems",
     },
     {
       name: "OpenPM RL Environment",

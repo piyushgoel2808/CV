@@ -95,7 +95,7 @@ export const Navbar = () => {
                 <Github size={17} />
               </a>
               <a
-                href="https://www.linkedin.com/in/piyush-goel-2808"
+                href="https://www.linkedin.com/in/piyush-goel-26548b142"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-colors"

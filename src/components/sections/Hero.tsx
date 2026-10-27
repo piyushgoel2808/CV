@@ -3,10 +3,10 @@ import { useState, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
 
 const ROLES = [
-  "Software Developer & AI Engineer",
-  "GenAI & RAG Systems Developer",
-  "Backend Engineer (Java / Spring Boot)",
-  "Data Analytics & Python Specialist",
+  "AI Engineer & Backend Developer",
+  "Agentic & Corrective RAG (CRAG) Architect",
+  "Multimodal VLMs & Document Intelligence",
+  "High-Concurrency Backend (FastAPI / Spring Boot)",
 ];
 
 export const Hero = () => {
@@ -56,7 +56,7 @@ export const Hero = () => {
           transition={{ delay: 0.15, duration: 0.6 }}
           className="section-label mb-8"
         >
-          // Software Developer &amp; AI Engineer &nbsp;·&nbsp; BVICAM GGSIPU &nbsp;·&nbsp;
+          // AI Engineer &amp; Backend Developer &nbsp;·&nbsp; BVICAM GGSIPU &nbsp;·&nbsp;
           IIT Madras
         </motion.span>
 
@@ -98,7 +98,7 @@ export const Hero = () => {
           className="max-w-2xl text-lg leading-relaxed mb-12"
           style={{ color: "var(--text-1)" }}
         >
-          Software Developer and AI Engineer equipped with experience in Java, Python, Spring Boot, ChromaDB, and Vector DBMS. Architecting high-concurrency backend services, intelligent RAG pipelines, and data-driven solutions.
+          AI Engineer and Backend Developer specializing in Agentic RAG architectures, Multimodal VLMs, and production LLM orchestration. Proven track record of building low-latency document intelligence pipelines and scalable microservices using Python, FastAPI, LangGraph, Qdrant, and Java (Spring Boot) to bridge Generative AI with high-concurrency backend systems.
         </motion.p>
 
         {/* CTA Buttons */}

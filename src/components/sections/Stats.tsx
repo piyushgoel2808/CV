@@ -3,14 +3,14 @@ import { useRef, useEffect, useState } from "react";
 
 const STATS = [
   { value: 250, suffix: "+", label: "Active Users Served" },
-  { value: 30, suffix: "+", label: "Production Commits" },
-  { value: 14, suffix: "+", label: "Projects Completed" },
-  { value: 3, suffix: "", label: "Degrees & Tracks" },
-  { value: 4, suffix: "", label: "Internships Completed" },
+  { value: 3, prefix: "<", suffix: "s", label: "VLM Inference Latency" },
+  { value: 12, suffix: "", label: "Domain CRAG Classifier" },
   { value: 100, suffix: "%", label: "Context Retrieval Accuracy" },
+  { value: 3, suffix: "", label: "Degrees & Tracks" },
+  { value: 30, suffix: "+", label: "Production Commits" },
 ];
 
-function Counter({ target, suffix }: { target: number; suffix: string }) {
+function Counter({ target, suffix, prefix = "" }: { target: number; suffix: string; prefix?: string }) {
   const [count, setCount] = useState(0);
   const ref = useRef<HTMLSpanElement>(null);
   const isInView = useInView(ref, { once: true, amount: 0.5 });
@@ -32,6 +32,7 @@ function Counter({ target, suffix }: { target: number; suffix: string }) {
 
   return (
     <span ref={ref} className="tabular-nums">
+      {prefix}
       {count}
       {suffix}
     </span>
@@ -66,7 +67,7 @@ export const Stats = () => {
               }}
             >
               <div className="text-3xl font-bold gradient-text mb-2 leading-none">
-                <Counter target={stat.value} suffix={stat.suffix} />
+                <Counter target={stat.value} suffix={stat.suffix} prefix={stat.prefix} />
               </div>
               <div
                 className="text-[10px] font-mono uppercase tracking-widest mt-1"
